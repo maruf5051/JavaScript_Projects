@@ -12,16 +12,17 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/" aria-current="page">Home</a>
-        <a target="_blank" href="https://www.youtube.com/@chaiaurcode">Youtube channel</a>
-    </nav>
     <div class="container">
         <h1>BMI Calculator</h1>
         <form>
-            <p><label>Height in CM: </label><input type="text" id="height" /></p>
-            <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+            <label>Height in CM: </label>
+            <input type="text" id="height"> <br>
+
+            <label>Weight in KG: </label>
+            <input type="text" id="weight"> <br>
+
             <button>Calculate</button>
+
             <div id="results"></div>
             <div id="weight-guide">
                 <h3>BMI Weight Guide</h3>
@@ -32,6 +33,7 @@
         </form>
     </div>
 </body>
-<script src="chaiaurcode.js"></script>
+<!-- Link with JS file -->
+<script src="script.js"></script>
 
 </html>
